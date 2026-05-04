@@ -5,8 +5,9 @@ export default function APropos() {
     <>
       {/* ═══════════════════ PAGE HERO ═══════════════════ */}
       <section className="page-hero">
-        <div className="page-hero-grid" />
-        <div className="page-hero-glow" />
+        <div className="hero-bg-grid" />
+        <div className="hero-bg-glow" />
+        <div className="hero-bg-glow-2" />
         <div className="page-hero-inner">
           <div className="container">
             <div className="breadcrumb fade-up fade-up-1">

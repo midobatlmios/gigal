@@ -32,10 +32,11 @@ export default function Hero() {
             </div>
           </div>
           <div className="hero-photo-wrap fade-up fade-up-3">
-            <div className="hero-photo-placeholder">
-              <div className="ph-icon">🏢</div>
-              <div className="ph-label">Photo du siège GIGALAB</div>
-            </div>
+            <img
+              src="/Gigalab-photo-2.jpg"
+              alt="Siège GIGALAB"
+              className="hero-photo-img"
+            />
             <div className="hero-photo-badge">
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>

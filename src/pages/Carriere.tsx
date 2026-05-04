@@ -211,8 +211,9 @@ export default function Carriere() {
     <>
       {/* ═══════════════════ HERO ═══════════════════ */}
       <section className="hero-carriere">
-        <div className="hero-bg-pattern" />
-        <div className="hero-red-accent" />
+        <div className="hero-bg-grid" />
+        <div className="hero-bg-glow" />
+        <div className="hero-bg-glow-2" />
         <div className="hero-inner-carriere">
           <div>
             <div className="breadcrumb fade-up">

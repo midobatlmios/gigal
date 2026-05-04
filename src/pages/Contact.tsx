@@ -102,9 +102,9 @@ export default function Contact() {
     <>
       {/* ═══════════════════ PAGE HERO ═══════════════════ */}
       <section className="page-hero-contact">
-        <div className="page-hero-grid-contact" />
-        <div className="page-hero-glow-contact" />
-        <div className="page-hero-glow-2-contact" />
+        <div className="hero-bg-grid" />
+        <div className="hero-bg-glow" />
+        <div className="hero-bg-glow-2" />
         <div className="page-hero-inner-contact">
           <div className="container">
             <div className="breadcrumb-contact fade-up fade-up-1">

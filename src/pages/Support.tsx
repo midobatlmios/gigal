@@ -158,8 +158,9 @@ export default function Support() {
     <>
       {/* ═══════════════════ PAGE HERO ═══════════════════ */}
       <section className="page-hero-support">
-        <div className="page-hero-grid-support" />
-        <div className="page-hero-glow-support" />
+        <div className="hero-bg-grid" />
+        <div className="hero-bg-glow" />
+        <div className="hero-bg-glow-2" />
         <div className="page-hero-inner-support">
           <div className="container">
             <div className="breadcrumb-support fade-up fade-up-1">

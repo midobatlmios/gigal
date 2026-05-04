@@ -106,7 +106,9 @@ export default function ManufacturingPage() {
     <>
       {/* ═══════════════════ PAGE HERO ═══════════════════ */}
       <section className="page-hero-full">
-        <div className="page-hero-grid" />
+        <div className="hero-bg-grid" />
+        <div className="hero-bg-glow" />
+        <div className="hero-bg-glow-2" />
         <div className="page-hero-photo">
           <svg width="64" height="64" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.2}>
             <rect x="4" y="24" width="40" height="20" rx="2" />
@@ -120,7 +122,7 @@ export default function ManufacturingPage() {
           <span>Photo de l'unité de production GIGALAB</span>
         </div>
         <div className="page-hero-overlay" />
-        <div className="page-hero-glow" />
+
         <div className="page-hero-inner-full">
           <div className="container">
             <div className="breadcrumb fade-up fade-up-1">

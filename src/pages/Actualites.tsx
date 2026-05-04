@@ -110,6 +110,9 @@ export default function Actualites() {
     <>
       {/* ═══════════════════ HERO ═══════════════════ */}
       <section className="hero-actualites">
+        <div className="hero-bg-grid" />
+        <div className="hero-bg-glow" />
+        <div className="hero-bg-glow-2" />
         <div className="hero-inner">
           <div className="breadcrumb fade-up">
             <Link to="/">Accueil</Link>

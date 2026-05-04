@@ -112,6 +112,7 @@ section.alt { background: var(--gray-100); }
   display: flex;
   align-items: center;
   gap: 11px;
+  flex-shrink: 0;
 }
 .nav-logo-mark {
   width: 34px; height: 34px;
@@ -142,22 +143,24 @@ section.alt { background: var(--gray-100); }
   display: block;
   margin-top: -2px;
 }
+.nav-desktop { flex-shrink: 0; }
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 4px;
 }
 .nav-links a {
   font-size: 13px;
   font-weight: 500;
   color: var(--gray-600);
-  padding: 6px 14px;
+  padding: 4px 8px;
   border-radius: 3px;
   transition: color 0.15s;
+  white-space: nowrap;
 }
 .nav-links a:hover { color: var(--black); }
 .nav-links a.active { color: var(--red); font-weight: 700; }
-.nav-cta { display: flex; gap: 10px; align-items: center; }
+.nav-cta { display: flex; gap: 10px; align-items: center; flex-shrink: 0; }
 
 /* ═══════════════════════════════════
    NAVBAR MOBILE MENU
@@ -267,6 +270,10 @@ section.alt { background: var(--gray-100); }
 }
 .nav-mobile-cta .btn { justify-content: center; }
 
+@media (max-width: 1100px) {
+  .nav-links { gap: 2px; }
+  .nav-links a { padding: 4px 6px; font-size: 12px; }
+}
 @media (max-width: 900px) {
   .nav-desktop { display: none; }
   .nav-cta { display: none; }
@@ -396,6 +403,12 @@ section.alt { background: var(--gray-100); }
   height: 480px;
   border-radius: 12px;
   overflow: hidden;
+}
+.hero-photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .hero-photo-placeholder {
   width: 100%;

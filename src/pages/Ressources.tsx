@@ -252,6 +252,9 @@ export default function Ressources() {
     <>
       {/* ═══════════════════ HERO ═══════════════════ */}
       <section className="hero-ressources">
+        <div className="hero-bg-grid" />
+        <div className="hero-bg-glow" />
+        <div className="hero-bg-glow-2" />
         <div className="hero-inner-ressources">
           <div>
             <div className="breadcrumb fade-up">

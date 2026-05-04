@@ -23,7 +23,7 @@ export default function Navbar() {
       <header className="navbar">
         <div className="container">
           <Link to="/" className="nav-logo" onClick={closeMenu}>
-            <img src="/jigajiga.png" alt="GIGALAB Logo" style={{ height: 34, width: 'auto' }} />
+            <img src="/jigajiga.png" alt="GIGALAB Logo" style={{ height: 34, width: 100 }} />
           </Link>
 
           {/* Desktop nav */}
@@ -74,7 +74,7 @@ export default function Navbar() {
       <div className={`nav-mobile-menu ${menuOpen ? 'open' : ''}`}>
         <div className="nav-mobile-header">
           <Link to="/" className="nav-logo" onClick={closeMenu}>
-            <img src="/jigajiga.png" alt="GIGALAB Logo" style={{ height: 34, width: 'auto' }} />
+            <img src="/jigajiga.png" alt="GIGALAB Logo" style={{ height: 34, width: 100 }} />
           </Link>
           <button className="nav-mobile-close" onClick={closeMenu} aria-label="Fermer">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round">
