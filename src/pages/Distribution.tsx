@@ -91,7 +91,7 @@ export default function Distribution() {
             ))}
           </div>
         )}
-        <a href="#" className="dist-product-link">Fiche technique →</a>
+        <Link to="/ressources" className="dist-product-link">Fiche technique →</Link>
       </div>
     </div>
   );
@@ -338,15 +338,15 @@ export default function Distribution() {
                 ))}
               </div>
               <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}>
-                <a href="#" className="btn btn-primary">
+                <Link to="/contact" className="btn btn-primary">
                   Devenir partenaire
                   <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth={2}>
                     <path d="M1 7h12M7 1l6 6-6 6" />
                   </svg>
-                </a>
-                <a href="#" className="btn btn-outline-dark">
+                </Link>
+                <Link to="/ressources" className="btn btn-outline-dark">
                   Télécharger notre catalogue
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -362,15 +362,15 @@ export default function Distribution() {
             <p className="cta-sub">Notre équipe commerciale et technique est disponible pour vous accompagner.</p>
           </div>
           <div className="cta-actions">
-            <a href="#" className="btn-cta-white">
+            <Link to="/contact" className="btn-cta-white">
               Nous contacter
               <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth={2} style={{ width: 13, height: 13 }}>
                 <path d="M1 7h12M7 1l6 6-6 6" />
               </svg>
-            </a>
-            <a href="#" className="btn-cta-outline">
+            </Link>
+            <Link to="/ressources" className="btn-cta-outline">
               Télécharger notre catalogue
-            </a>
+            </Link>
           </div>
         </div>
       </section>

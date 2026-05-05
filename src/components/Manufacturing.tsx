@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Manufacturing() {
   return (
     <section className="mfg-section">
@@ -33,12 +35,12 @@ export default function Manufacturing() {
               </div>
             </div>
             <div style={{ marginTop: 32 }}>
-              <a href="#" className="btn btn-primary">
+              <Link to="/manufacturing" className="btn btn-primary">
                 Voir le manufacturing
                 <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth={2} style={{ width: 13, height: 13 }}>
                   <path d="M1 7h12M7 1l6 6-6 6" />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="mfg-photos">

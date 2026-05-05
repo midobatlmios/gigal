@@ -1301,17 +1301,22 @@ footer {
   .hero-photo-wrap { display: none; }
   .stats-grid { grid-template-columns: 1fr 1fr; }
   .about-strip .container { grid-template-columns: 1fr; gap: 40px; }
+  .about-right { grid-template-columns: 1fr 1fr; }
   .activities-grid { grid-template-columns: 1fr; }
   .mfg-inner { grid-template-columns: 1fr; }
   .mfg-photos { display: none; }
   .values-grid { grid-template-columns: 1fr 1fr; }
+  .certifs-grid { grid-template-columns: repeat(3, 1fr); }
   .news-grid { grid-template-columns: 1fr; }
   .products-grid { grid-template-columns: 1fr 1fr; }
   .footer-top { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 600px) {
   section { padding: 64px 0; }
+  .about-right { grid-template-columns: 1fr; }
   .values-grid { grid-template-columns: 1fr; }
+  .certifs-grid { grid-template-columns: repeat(2, 1fr); }
+  .products-grid { grid-template-columns: 1fr; }
   .footer-top { grid-template-columns: 1fr; }
 }
 

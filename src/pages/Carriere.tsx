@@ -352,12 +352,12 @@ export default function Carriere() {
                 </div>
                 <div className="offre-cta">
                   <span className="offre-date">{offre.date}</span>
-                  <a href="#" className="btn-postuler">
+                  <Link to="/contact" className="btn-postuler">
                     Postuler
                     <svg viewBox="0 0 24 24" fill="none" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
                       <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}

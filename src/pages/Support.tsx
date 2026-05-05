@@ -396,9 +396,9 @@ export default function Support() {
                 <path d="M1 7h12M7 1l6 6-6 6" />
               </svg>
             </a>
-            <a href="#" className="btn-cta-outline">
+            <Link to="/ressources" className="btn-cta-outline">
               Télécharger un manuel
-            </a>
+            </Link>
           </div>
         </div>
       </section>

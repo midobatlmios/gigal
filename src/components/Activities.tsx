@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Activities() {
   return (
     <section className="activities">
@@ -19,7 +21,7 @@ export default function Activities() {
             <p className="activity-desc">
               GIGALAB conçoit et assemble ses propres équipements — dont la gamme de microscopes Giga-Infinity — et développe des solutions diagnostiques sur mesure pour les professionnels de santé et les industriels.
             </p>
-            <a href="#" className="activity-link">Découvrir →</a>
+            <Link to="/solutions" className="activity-link">Découvrir →</Link>
           </div>
           <div className="activity-card">
             <div className="activity-icon">
@@ -33,7 +35,7 @@ export default function Activities() {
             <p className="activity-desc">
               Tests rapides (gamme GLD), milieux de culture, équipements — conçus et fabriqués au Maroc. Certifiés ISO 13485, CE et homologués Ministère de la Santé marocain.
             </p>
-            <a href="#" className="activity-link">Voir la production →</a>
+            <Link to="/manufacturing" className="activity-link">Voir la production →</Link>
           </div>
           <div className="activity-card">
             <div className="activity-icon">
@@ -46,7 +48,7 @@ export default function Activities() {
             <p className="activity-desc">
               Analyseurs de biochimie, hématologie, immunologie et auto-immunité de dernière génération. Installation, formation et support technique de proximité.
             </p>
-            <a href="#" className="activity-link">Voir les équipements →</a>
+            <Link to="/distribution" className="activity-link">Voir les équipements →</Link>
           </div>
         </div>
       </div>

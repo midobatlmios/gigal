@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Products() {
   const products = [
     {
@@ -63,7 +65,7 @@ export default function Products() {
                     <span className="product-spec" key={spec}>{spec}</span>
                   ))}
                 </div>
-                <a href="#" className="product-link">Fiche technique →</a>
+                <Link to="/distribution" className="product-link">Fiche technique →</Link>
               </div>
             </div>
           ))}

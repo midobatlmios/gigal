@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Hero() {
   return (
     <section className="hero">
@@ -15,13 +17,13 @@ export default function Hero() {
               Leader africain en fabrication de tests diagnostiques et distribution multi-marques.
             </p>
             <div className="hero-actions fade-up fade-up-4">
-              <a href="#" className="btn btn-primary">
+              <Link to="/solutions" className="btn btn-primary">
                 Découvrir nos solutions
                 <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth={2}>
                   <path d="M1 7h12M7 1l6 6-6 6" />
                 </svg>
-              </a>
-              <a href="#" className="btn btn-outline-white">Nous contacter</a>
+              </Link>
+              <Link to="/contact" className="btn btn-outline-white">Nous contacter</Link>
             </div>
             <div className="hero-certifs fade-up fade-up-5">
               <span className="hero-certif-label">Certifié</span>

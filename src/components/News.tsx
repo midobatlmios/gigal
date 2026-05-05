@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function News() {
   const articles = [
     {
@@ -31,12 +33,12 @@ export default function News() {
             <div className="overline">Blog & Actualités</div>
             <h2 className="section-title">Dernières actualités.</h2>
           </div>
-          <a href="#" className="btn btn-outline-dark">
+          <Link to="/actualites" className="btn btn-outline-dark">
             Toutes les actualités
             <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth={2} style={{ width: 13, height: 13 }}>
               <path d="M1 7h12M7 1l6 6-6 6" />
             </svg>
-          </a>
+          </Link>
         </div>
         <div className="news-grid">
           {articles.map((article) => (
@@ -50,7 +52,7 @@ export default function News() {
                 <div className="news-card-date">{article.date}</div>
                 <h3 className="news-card-title">{article.title}</h3>
                 <p className="news-card-excerpt">{article.excerpt}</p>
-                <a href="#" className="news-card-link">Lire la suite →</a>
+                <Link to="/actualites" className="news-card-link">Lire la suite →</Link>
               </div>
             </div>
           ))}

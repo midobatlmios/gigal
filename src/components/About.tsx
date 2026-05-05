@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function About() {
   return (
     <div className="about-strip">
@@ -9,12 +11,12 @@ export default function About() {
             Premiers tests antigéniques salivaires <em>made in Africa</em>. Distribution multi-marques d'analyseurs de dernière génération. 
             GIGALAB maîtrise l'ensemble de la chaîne — de la R&D à la livraison — pour les laboratoires, hôpitaux et industriels du Maroc et d'Afrique.
           </p>
-          <a href="#" className="btn btn-primary">
+          <Link to="/apropos" className="btn btn-primary">
             En savoir plus
             <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth={2} style={{ width: 13, height: 13 }}>
               <path d="M1 7h12M7 1l6 6-6 6" />
             </svg>
-          </a>
+          </Link>
         </div>
         <div className="about-right">
           <div className="about-pill">

@@ -92,12 +92,12 @@ export default function Solutions() {
                   Idéal analyses scientifiques exigeantes
                 </div>
               </div>
-              <a href="#" className="btn btn-primary">
+              <Link to="/ressources" className="btn btn-primary">
                 Fiche technique
                 <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth={2}>
                   <path d="M1 7h12M7 1l6 6-6 6" />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -230,12 +230,12 @@ export default function Solutions() {
                 </tbody>
               </table>
               <div style={{ marginTop: 28 }}>
-                <a href="#" className="btn btn-outline-white">
+                <Link to="/ressources" className="btn btn-outline-white">
                   Télécharger le catalogue GLD
                   <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth={2} style={{ width: 13, height: 13 }}>
                     <path d="M7 1v8M3 6l4 4 4-4M1 12h12" />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -315,15 +315,15 @@ export default function Solutions() {
                 </div>
               </div>
               <div style={{ marginTop: 24, display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-                <a href="#" className="btn btn-primary">
+                <Link to="/contact" className="btn btn-primary">
                   Demander une documentation
                   <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth={2}>
                     <path d="M1 7h12M7 1l6 6-6 6" />
                   </svg>
-                </a>
-                <a href="#" className="btn btn-outline-dark">
+                </Link>
+                <Link to="/contact" className="btn btn-outline-dark">
                   Contacter l'équipe commerciale
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -339,15 +339,15 @@ export default function Solutions() {
             <p className="cta-sub">Notre équipe commerciale et technique est disponible pour vous accompagner.</p>
           </div>
           <div className="cta-actions">
-            <a href="#" className="btn-cta-white">
+            <Link to="/contact" className="btn-cta-white">
               Nous contacter
               <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth={2} style={{ width: 13, height: 13 }}>
                 <path d="M1 7h12M7 1l6 6-6 6" />
               </svg>
-            </a>
-            <a href="#" className="btn-cta-outline">
+            </Link>
+            <Link to="/ressources" className="btn-cta-outline">
               Télécharger notre catalogue
-            </a>
+            </Link>
           </div>
         </div>
       </section>

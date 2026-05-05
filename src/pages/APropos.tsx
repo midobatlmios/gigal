@@ -278,15 +278,15 @@ export default function APropos() {
             <p className="cta-sub">Notre équipe commerciale et technique est disponible pour vous accompagner.</p>
           </div>
           <div className="cta-actions">
-            <a href="#" className="btn-cta-white">
+            <Link to="/contact" className="btn-cta-white">
               Nous contacter
               <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth={2} style={{ width: 13, height: 13 }}>
                 <path d="M1 7h12M7 1l6 6-6 6" />
               </svg>
-            </a>
-            <a href="#" className="btn-cta-outline">
+            </Link>
+            <Link to="/ressources" className="btn-cta-outline">
               Télécharger notre catalogue
-            </a>
+            </Link>
           </div>
         </div>
       </section>

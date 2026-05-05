@@ -205,12 +205,12 @@ export default function Actualites() {
                 <span className="tag">Dispositifs médicaux</span>
                 <span className="tag">Bureau Veritas</span>
               </div>
-              <a href="#" className="btn btn-primary">
+              <Link to="/actualites" className="btn btn-primary">
                 Lire l'article
                 <svg viewBox="0 0 24 24" fill="none" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -224,12 +224,12 @@ export default function Actualites() {
               <div className="overline">Récentes</div>
               <h2 className="section-title">Dernières nouvelles</h2>
             </div>
-            <a href="#" className="btn btn-outline-dark">
+            <Link to="/actualites" className="btn btn-outline-dark">
               Toutes les actualités
               <svg viewBox="0 0 24 24" fill="none" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
-            </a>
+            </Link>
           </div>
 
           <div className="actualites-grid">
@@ -248,12 +248,12 @@ export default function Actualites() {
                   <h3>{card.title}</h3>
                   <p>{card.desc}</p>
                   <div className="card-footer">
-                    <a href="#" className="card-read-more">
+                    <Link to="/actualites" className="card-read-more">
                       Lire
                       <svg viewBox="0 0 24 24" fill="none" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round">
                         <path d="M5 12h14M12 5l7 7-7 7" />
                       </svg>
-                    </a>
+                    </Link>
                     <span className="card-views">
                       <svg viewBox="0 0 24 24" fill="none" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
                         <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
