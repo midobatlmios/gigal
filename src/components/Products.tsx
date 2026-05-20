@@ -29,7 +29,7 @@ export default function Products() {
   ];
 
   return (
-    <section className="products-section">
+    <section className="products-section fade-in-section">
       <div className="container">
         <div className="products-header">
           <div>

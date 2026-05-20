@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function CTA() {
   return (
-    <section className="cta-section">
+    <section className="cta-section fade-in-section">
       <div className="container cta-inner">
         <span className="cta-overline">Travaillons ensemble</span>
         <h2 className="cta-title">Un projet ? Un besoin ?</h2>

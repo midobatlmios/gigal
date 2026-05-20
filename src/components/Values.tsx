@@ -23,7 +23,7 @@ export default function Values() {
   ];
 
   return (
-    <section className="values">
+    <section className="values fade-in-section">
       <div className="container">
         <div className="section-header">
           <div className="overline" style={{ justifyContent: 'center' }}>Ce qui nous guide</div>

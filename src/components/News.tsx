@@ -26,7 +26,7 @@ export default function News() {
   ];
 
   return (
-    <section className="news">
+    <section className="news fade-in-section">
       <div className="container">
         <div className="news-header">
           <div>

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Activities() {
   return (
-    <section className="activities">
+    <section className="activities fade-in-section">
       <div className="container">
         <div className="section-header">
           <div className="overline" style={{ justifyContent: 'center' }}>Nos activités</div>

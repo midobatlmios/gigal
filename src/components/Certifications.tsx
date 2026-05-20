@@ -8,7 +8,7 @@ export default function Certifications() {
   ];
 
   return (
-    <section className="certifs-section">
+    <section className="certifs-section fade-in-section">
       <div className="container">
         <div className="certifs-header">
           <div className="overline" style={{ justifyContent: 'center' }}>Qualité & Conformité</div>

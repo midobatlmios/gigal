@@ -1,6 +1,6 @@
 export default function Stats() {
   return (
-    <div className="stats-section">
+    <div className="stats-section fade-in-section">
       <div className="container" style={{ paddingLeft: 0, paddingRight: 0, maxWidth: '100%' }}>
         <div className="stats-grid">
           <div className="stat-item">

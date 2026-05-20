@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function About() {
   return (
-    <div className="about-strip">
+    <div className="about-strip fade-in-section">
       <div className="container">
         <div>
           <div className="overline">À propos</div>

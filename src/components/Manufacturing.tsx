@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Manufacturing() {
   return (
-    <section className="mfg-section">
+    <section className="mfg-section fade-in-section">
       <div className="container">
         <div className="mfg-inner">
           <div className="mfg-content">
